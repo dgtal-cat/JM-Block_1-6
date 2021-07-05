@@ -179,7 +179,7 @@ a {
 .prices__offer-btn img {
   margin-left: 8px; }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   .main-header {
     padding: 0 16px; }
   #header-callback-btn, #header-feedback-btn, #header-account-btn {
@@ -209,7 +209,7 @@ a {
   .footer__inner a {
     color: #7E7E82; }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   .footer {
     flex-direction: column;
     height: -webkit-fit-content;
@@ -362,7 +362,7 @@ a {
   .sidebar__show {
     display: flex; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   .sidebar-wrapper {
     padding: 0 16px;
     width: 100%; }
@@ -505,7 +505,7 @@ a {
   #article-read-more-btn {
     display: flex; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   .article {
     flex-direction: column; }
   .article__text-block {

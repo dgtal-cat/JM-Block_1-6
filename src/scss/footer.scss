@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 50px 32px 24px;
+  height: 86px;
+  background-color: $main-bgr-color;
+}
+
+.footer__inner {
+  width: 32%;
+  height: 43px;
+  color: $grey-text-color;
+  a {
+    color: $grey-text-color;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
